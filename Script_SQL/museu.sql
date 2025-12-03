@@ -137,52 +137,52 @@ INSERT INTO OBRA (
 )
 VALUES
 ('Cem Anos de Solidão', 'l1.png', 'Rio de Janeiro', '2005-01-01', '416 p. ; 23 cm',
- '869.93 G14C', 'LIT.LATIN', 'Cien años de soledad', '978-8501015039',
+ '869.93 G14C', 'LIT.LATIN', 'Cien años de soledad', '9788501015039',
  'Clássicos Modernos', '25. ed.', 'Biblioteca Gabriel García Márquez', 'Tradução de Antônio Houaiss.', '1',
  'Cem Anos de Solidão', 'Livro', 6, 1, 1), 
 
 ('O Pequeno Príncipe', 'l2.png', 'São Paulo', '2015-01-01', '96 p. ; 20 cm',
- '843.9 A63P', 'LIT.INFANTIL', 'Le Petit Prince', '978-8595990262',
+ '843.9 A63P', 'LIT.INFANTIL', 'Le Petit Prince', '9788595990262',
  'Infantojuvenil', '1. ed. bilíngue', 'Clássicos de Ouro', 'Edição com ilustrações originais do autor.', '1',
  'O Pequeno Príncipe', 'Livro', 7, 3, 2), 
 
 ('A Riqueza das Nações', 'l3.png', 'Brasília', '2010-01-01', '600 p. ; 24 cm',
- '330.1 S64R', 'ECO.GERAL', 'The Wealth of Nations', '978-8522459955',
+ '330.1 S64R', 'ECO.GERAL', 'The Wealth of Nations', '9788522459955',
  'Pensamento Econômico', '3. ed.', 'Clássicos da Economia', 'Obra fundamental da economia clássica.', '1',
  'A Riqueza das Nações', 'Livro', 5, 4, 3), 
 
 ('Dom Casmurro', 'l4.png', 'São Paulo', '2018-01-01', '280 p. ; 21 cm',
- '869.9 M18D', 'LIT.BRASIL', 'Dom Casmurro', '978-8535911292',
+ '869.9 M18D', 'LIT.BRASIL', 'Dom Casmurro', '9788535911292',
  'Literatura Brasileira', '5. ed. revisada', 'Obras de Machado de Assis', 'Análise crítica de John Gledson.', '1',
  'Dom Casmurro', 'Livro', 6, 2, 4), 
 
 ('Sapiens: Uma Breve História da Humanidade', 'l5.png', 'Porto Alegre', '2019-01-01', '464 p. ; 23 cm',
- '909 Y94S', 'HIS.GERAL', 'Sapiens: A Brief History of Humankind', '978-8547000100',
+ '909 Y94S', 'HIS.GERAL', 'Sapiens: A Brief History of Humankind', '9788547000100',
  'Não Ficção', '1. ed.', 'Grandes Temas', 'Best-seller internacional sobre a história humana.', '1',
  'Sapiens', 'Livro', 2, 5, 5), 
 
 ('Engenharia de Software', 'l6.png', 'Rio de Janeiro', '2022-01-01', '750 p. ; 25 cm',
- '005.1 S63E', 'COMP.SOFT', 'Software Engineering', '978-8582601000',
+ '005.1 S63E', 'COMP.SOFT', 'Software Engineering', '9788582601000',
  'Informática Aplicada', '10. ed.', 'Série de Computação', 'Foco em métodos ágeis e DevOps.', '1',
  'Engenharia de Software', 'Livro', 1, 6, 6), 
 
 ('1984', 'l7.png', 'São Paulo', '2016-01-01', '336 p. ; 22 cm',
- '823.9 O74O', 'FIC.DISTR.', 'Nineteen Eighty-Four', '978-8535909169',
+ '823.9 O74O', 'FIC.DISTR.', 'Nineteen Eighty-Four', '9788535909169',
  'Ficção Científica', '1. ed. de bolso', 'Distopias Clássicas', 'Prefácio de Thomas Pynchon.', '1',
  '1984', 'Livro', 6, 2, 7), 
 
 ('Didática', 'l8.png', 'Campinas', '2000-01-01', '304 p. ; 22 cm',
- '371.3 L55D', 'EDU.DIDAT', 'Didática', '978-8530800665',
+ '371.3 L55D', 'EDU.DIDAT', 'Didática', '9788530800665',
  'Pedagogia', '3. ed. revisada', 'Coleção Magistério', 'Referência para formação de professores.', '1',
  'Didática', 'Livro', 9, 7, 8), 
 
 ('O Capital: Crítica da Economia Política', 'l9.png', 'São Paulo', '2017-01-01', '896 p. ; 24 cm',
- '335.4 M34C', 'ECO.POLIT', 'Das Kapital', '978-8575595332',
+ '335.4 M34C', 'ECO.POLIT', 'Das Kapital', '9788575595332',
  'Teoria Marxista', '1. ed. integral', 'Clássicos da Política', 'Tradução de Rubens Enderle.', '1',
  'O Capital', 'Livro', 5, 8, 9), 
 
 ('Uma Teoria da Justiça', 'l10.png', 'São Paulo', '2002-01-01', '816 p. ; 25 cm',
- '340.1 R18T', 'FIL.POLIT', 'A Theory of Justice', '978-8533617307',
+ '340.1 R18T', 'FIL.POLIT', 'A Theory of Justice', '9788533617307',
  'Filosofia Política', '2. ed. revista', 'Pensadores Essenciais', 'Apresenta os princípios de justiça como equidade.', '1',
  'Uma Teoria da Justiça', 'Livro', 10, 9, 10); 
 GO
@@ -196,16 +196,16 @@ INSERT INTO OBRA (
     FK_Assunto_ID, FK_Editora_ID, FK_Autores_ID
 )
 VALUES
-('Revista Pesquisa FAPESP', 'r1.png', 'São Paulo', '2025-01-01', '90 p.', '1519-8736', '347', 'Mensal', 'Pesquisa FAPESP', 'Revista', 3, 1, 1), 
-('Quatro Rodas', 'r2.png', 'São Paulo', '2025-01-01', '130 p.', '0033-5596', '798', 'Mensal', 'Quatro Rodas', 'Revista', 8, 10, 2), 
-('Claudia', 'r3.png', 'São Paulo', '2024-12-01', '140 p.', '0009-8973', '743', 'Mensal', 'Claudia', 'Revista', 8, 10, 3), 
-('The New Yorker', 'r4.png', 'Nova York', '2024-12-23', '75 p.', '0028-792X', '100', 'Semanal', 'The New Yorker', 'Revista', 6, 1, 4), 
-('Galileu', 'r5.png', 'São Paulo', '2024-12-15', '110 p.', '0103-085X', '398', 'Mensal', 'Galileu', 'Revista', 3, 10, 5), 
-('Exame', 'r6.png', 'São Paulo', '2025-01-01', '150 p.', '0014-2563', '1288', 'Quinzenal', 'Exame', 'Revista', 5, 10, 6), 
-('Nature', 'r7.png', 'Londres', '2024-12-19', '60 p.', '0028-0836', '630', 'Semanal', 'Nature', 'Revista', 3, 1, 7), 
-('Viagem e Turismo', 'r8.png', 'São Paulo', '2025-01-01', '125 p.', '0104-1181', '350', 'Mensal', 'Viagem e Turismo', 'Revista', 8, 10, 8), 
-('Rolling Stone Brasil', 'r9.png', 'São Paulo', '2024-12-01', '100 p.', '1982-9609', '200', 'Mensal', 'Rolling Stone Brasil', 'Revista', 4, 1, 9), 
-('Arquitetura & Construção', 'r10.png', 'São Paulo', '2024-12-01', '160 p.', '0102-1454', '420', 'Mensal', 'Arquitetura & Construção', 'Revista', 1, 10, 10); 
+('Revista Pesquisa FAPESP', 'r1.png', 'São Paulo', '2025-01-01', '90 p.', '15198736', '347', 'Mensal', 'Pesquisa FAPESP', 'Revista', 3, 1, 1), 
+('Quatro Rodas', 'r2.png', 'São Paulo', '2025-01-01', '130 p.', '00335596', '798', 'Mensal', 'Quatro Rodas', 'Revista', 8, 10, 2), 
+('Claudia', 'r3.png', 'São Paulo', '2024-12-01', '140 p.', '00098973', '743', 'Mensal', 'Claudia', 'Revista', 8, 10, 3), 
+('The New Yorker', 'r4.png', 'Nova York', '2024-12-23', '75 p.', '0028792X', '100', 'Semanal', 'The New Yorker', 'Revista', 6, 1, 4), 
+('Galileu', 'r5.png', 'São Paulo', '2024-12-15', '110 p.', '0103085X', '398', 'Mensal', 'Galileu', 'Revista', 3, 10, 5), 
+('Exame', 'r6.png', 'São Paulo', '2025-01-01', '150 p.', '00142563', '1288', 'Quinzenal', 'Exame', 'Revista', 5, 10, 6), 
+('Nature', 'r7.png', 'Londres', '2024-12-19', '60 p.', '00280836', '630', 'Semanal', 'Nature', 'Revista', 3, 1, 7), 
+('Viagem e Turismo', 'r8.png', 'São Paulo', '2025-01-01', '125 p.', '01041181', '350', 'Mensal', 'Viagem e Turismo', 'Revista', 8, 10, 8), 
+('Rolling Stone Brasil', 'r9.png', 'São Paulo', '2024-12-01', '100 p.', '19829609', '200', 'Mensal', 'Rolling Stone Brasil', 'Revista', 4, 1, 9), 
+('Arquitetura & Construção', 'r10.png', 'São Paulo', '2024-12-01', '160 p.', '01021454', '420', 'Mensal', 'Arquitetura & Construção', 'Revista', 1, 10, 10); 
 GO
 
 --- INSERÇÃO DE OBRAS -> JORNAIS 
@@ -216,16 +216,16 @@ INSERT INTO OBRA (
     FK_Assunto_ID, FK_Editora_ID, FK_Autores_ID
 )
 VALUES
-('Folha de São Paulo', 'j1.png', 'São Paulo', '2025-01-01', '32 p.', '1414-5723', 'Diário', 'Folha de São Paulo', 'Jornal', 8, 1, 1), 
-('O Globo', 'j2.png', 'Rio de Janeiro', '2025-01-01', '40 p.', '0104-5853', 'Diário', 'O Globo', 'Jornal', 8, 2, 2), 
-('Zero Hora', 'j3.png', 'Porto Alegre', '2025-01-01', '28 p.', '0044-8723', 'Diário', 'Zero Hora', 'Jornal', 8, 3, 3), 
-('Correio Braziliense', 'j4.png', 'Brasília', '2025-01-01', '36 p.', '0104-5977', 'Diário', 'Correio Braziliense', 'Jornal', 8, 4, 4), 
-('O Estado de S. Paulo', 'j5.png', 'São Paulo', '2025-01-01', '48 p.', '1516-2931', 'Diário', 'O Estado de S. Paulo', 'Jornal', 8, 5, 5), 
-('Valor Econômico', 'j6.png', 'São Paulo', '2025-01-01', '32 p.', '1518-6932', 'Diário', 'Valor Econômico', 'Jornal', 5, 6, 6), 
-('Jornal do Commercio', 'j7.png', 'Recife', '2025-01-01', '36 p.', '1677-4467', 'Diário', 'Jornal do Commercio', 'Jornal', 8, 7, 7), 
-('Estado de Minas', 'j8.png', 'Belo Horizonte', '2025-01-01', '42 p.', '0103-9121', 'Diário', 'Estado de Minas', 'Jornal', 8, 8, 8), 
-('The New York Times', 'j9.png', 'Nova York', '2025-01-01', '52 p.', '0362-4331', 'Diário', 'The New York Times', 'Jornal', 8, 9, 9), 
-('Financial Times', 'j10.png', 'Londres', '2025-01-01', '30 p.', '0307-1766', 'Diário', 'Financial Times', 'Jornal', 5, 10, 10); 
+('Folha de São Paulo', 'j1.png', 'São Paulo', '2025-01-01', '32 p.', '14145723', 'Diário', 'Folha de São Paulo', 'Jornal', 8, 1, 1), 
+('O Globo', 'j2.png', 'Rio de Janeiro', '2025-01-01', '40 p.', '01045853', 'Diário', 'O Globo', 'Jornal', 8, 2, 2), 
+('Zero Hora', 'j3.png', 'Porto Alegre', '2025-01-01', '28 p.', '00448723', 'Diário', 'Zero Hora', 'Jornal', 8, 3, 3), 
+('Correio Braziliense', 'j4.png', 'Brasília', '2025-01-01', '36 p.', '01045977', 'Diário', 'Correio Braziliense', 'Jornal', 8, 4, 4), 
+('O Estado de S. Paulo', 'j5.png', 'São Paulo', '2025-01-01', '48 p.', '15162931', 'Diário', 'O Estado de S. Paulo', 'Jornal', 8, 5, 5), 
+('Valor Econômico', 'j6.png', 'São Paulo', '2025-01-01', '32 p.', '15186932', 'Diário', 'Valor Econômico', 'Jornal', 5, 6, 6), 
+('Jornal do Commercio', 'j7.png', 'Recife', '2025-01-01', '36 p.', '16774467', 'Diário', 'Jornal do Commercio', 'Jornal', 8, 7, 7), 
+('Estado de Minas', 'j8.png', 'Belo Horizonte', '2025-01-01', '42 p.', '01039121', 'Diário', 'Estado de Minas', 'Jornal', 8, 8, 8), 
+('The New York Times', 'j9.png', 'Nova York', '2025-01-01', '52 p.', '03624331', 'Diário', 'The New York Times', 'Jornal', 8, 9, 9), 
+('Financial Times', 'j10.png', 'Londres', '2025-01-01', '30 p.', '03071766', 'Diário', 'Financial Times', 'Jornal', 5, 10, 10); 
 GO
 
 --- INSERÇÃO DE EXEMPLARES 
